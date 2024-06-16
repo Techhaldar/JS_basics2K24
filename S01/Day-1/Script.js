@@ -1,15 +1,15 @@
 alert("hello world")
 console.log("Ratin Haldar");
 
-Variable cannot be re-declared but can be updated. A block scope variable.
+// Variable cannot be re-declared but can be updated. A block scope variable.
 let a = 10;
 console.log(a)
 
-Variable can be re-declared & updated. A global scope variable.
+// Variable can be re-declared & updated. A global scope variable.
 var age = 18;
 console.log(age)
 
-Variable cannot be re-declared or updated. A block scope variable. |
+// Variable cannot be re-declared or updated. A block scope variable. 
 const value = "raju";
 console.log(age)
 
@@ -19,64 +19,65 @@ console.log(age)
     console.log(a);
 }
 
-// {
-//     let a = 56;
-//     console.log(a);
-// }
+{
+         let a = 56;
+         console.log(a);
 
-// const p = 3;
-// p = 9;
-// console.log(p);
+  }
 
-// Datatype
+ const p = 3;
+  p = 9;
+  console.log(p);
 
-// Number datatype
-// let age = 12;
-// let price = 45;
-// console.log(age)
-// console.log(typeof(age))
-// console.log(price)
-// console.log(typeof(price))
+ Datatype
 
-// String datatype
-// let p = "ratin";
-// console.log(p)
-// console.log(typeof(p))
+//  Number datatype
+  let age = 12;
+  let price = 45;
+  console.log(age)
+  console.log(typeof(age))
+  console.log(price)
+  console.log(typeof(price))
 
-// boolean datatype
-// let r = true;
-// let q = false;
-// console.log(r)
-// console.log(typeof(r))
-// console.log(q)
-// console.log(typeof(q))
+//  String datatype
+  let s = "ratin";
+  console.log(s)
+  console.log(typeof(s))
 
-// undefined datatpye
+//  boolean datatype
+  let r = true;
+  let q = false;
+  console.log(r)
+  console.log(typeof(r))
+  console.log(q)
+  console.log(typeof(q))
 
-// let s;
-// console.log(s)
-// console.log(typeof(s))
+//  undefined datatpye
 
-// let n = null;
-// console.log(n)
-// console.log(typeof(n))
+ let U;
+  console.log(U)
+  console.log(typeof(U))
 
-// let m = BigInt(1234567);
-// console.log(m)
-// console.log(typeof(m));
+ let n = null;
+  console.log(n)
+  console.log(typeof(n))
 
-// const student = {
-//     Fullname : "Ratin Haldar",
-//     age : 20,
-//     CGPA : 8.2,
-//     isPass : true,
-// };
+ let m = BigInt(1234567);
+  console.log(m)
+  console.log(typeof(m));
 
-// student.age = student.age + 1;
-// student.Fullname = "rahul Haldar"
+ const student = {
+     Fullname : "Ratin Haldar",
+     age : 20,
+     CGPA : 8.2,
+     isPass : true,
+ };
 
-// console.log(student.CGPA);
-// console.log(student);
+ student.age = student.age + 1;
+ student.Fullname = "rahul Haldar"
+
+ console.log(student.CGPA);
+ console.log(student);
 
 const product = {
     Product_name : "Parker Jotter Standard CT Ball Pen (Black)",
